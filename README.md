@@ -2,26 +2,35 @@
 Multilingual version of the User Gold Standard Corpus (UGSC) for evaluating cross-lingual sentiment analysis in sustainable urban mobility.
 # UGSC Multilingual Sentiment Dataset for Sustainable Mobility
 
-This repository contains the multilingual version of the User Gold Standard Corpus (UGSC), designed for evaluating cross-lingual sentiment classification models in the context of sustainable urban mobility.
+This repository contains the multilingual version of the **User Gold Standard Corpus (UGSC)**, designed for evaluating cross-lingual sentiment classification models in the context of sustainable urban mobility.
 
 ## Description
 
-The dataset supports research on zero-shot multilingual sentiment analysis and contributes to reproducibility and benchmarking in NLP applications involving user-generated transport reviews.
+The dataset supports research on **zero-shot multilingual sentiment analysis** using real-world user-generated content (UGC) from platforms like TripAdvisor. It is based on an English corpus manually annotated with sentiment polarity labels and includes sentence-aligned translations in:
 
-It consists of sentence-aligned translations across five languages: English, Spanish, French, German, and Italian.  
-It is based on a manually annotated English corpus and has been used to evaluate the performance of a pre-trained XLM-RoBERTa sentiment classifier in a zero-shot setting.
+- 🇪🇸 Spanish
+- 🇫🇷 French
+- 🇩🇪 German
+- 🇮🇹 Italian
 
 ## Contents
-Contents
-* translated_versions/: Sentence-aligned translations of the English UGSC into four additional languages.
-* sentiment_predictions/: Model predictions (sentiment class and confidence) for each sentence and language.
-* sentiment_distribution_plot.png: Visualization of sentiment distribution per language.
-* README.md: Dataset structure, usage instructions, and citation information.
-
+- `translated_versions/` — Sentence-aligned corpora in five languages
+- `sentiment_predictions/` — Model outputs using XLM-RoBERTa (label + confidence)
+- `visualizations/` — Distribution plots and analysis figures
+- `README.md` — Description and instructions
+- `LICENSE` — Open data license (recommended: CC-BY-4.0)
+  
 ## Keywords
 
 `Multilingual NLP`, `Sentiment Analysis`, `Sustainable Mobility`, `Zero-Shot Learning`, `Cross-Lingual Evaluation`, `User-Generated Content`, `NLP for Transport`
 
+## How to use
+
+1. Load any of the translated corpora from `translated_versions/`.
+2. Run inference using the `cardiffnlp/twitter-xlm-roberta-base-sentiment` model via HuggingFace.
+3. Compare predictions and confidence across languages.
+4. Use figures and plots for exploratory or benchmarking purposes.
+   
 ## Citation
 
 Please cite the dataset as follows:
