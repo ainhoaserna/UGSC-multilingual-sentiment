@@ -26,7 +26,7 @@ Contents
 
 Please cite the dataset as follows:
 
-> Serna, A. (2024). Cross-Lingual Sentiment Classification in Sustainable Mobility: A Zero-Shot Evaluation Framework.
+> Serna, A. (2024). *Cross-Lingual Sentiment Classification in Sustainable Mobility: A Zero-Shot Evaluation Framework*.
 
 BibTeX:
 ```bibtex
