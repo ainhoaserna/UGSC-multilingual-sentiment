@@ -32,4 +32,7 @@ BibTeX:
   journal = {Language Resources and Evaluation}
 }
 
+## License
+
+MIT License / CC BY-SA 4.0
 
