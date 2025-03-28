@@ -12,6 +12,11 @@ It consists of sentence-aligned translations across five languages: English, Spa
 It is based on a manually annotated English corpus and has been used to evaluate the performance of a pre-trained XLM-RoBERTa sentiment classifier in a zero-shot setting.
 
 ## Contents
+Contents
+* translated_versions/: Sentence-aligned translations of the English UGSC into four additional languages.
+* sentiment_predictions/: Model predictions (sentiment class and confidence) for each sentence and language.
+* sentiment_distribution_plot.png: Visualization of sentiment distribution per language.
+* README.md: Dataset structure, usage instructions, and citation information.
 
 ## Keywords
 
