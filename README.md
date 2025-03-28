@@ -33,18 +33,10 @@ The dataset supports research on **zero-shot multilingual sentiment analysis** u
    
 ## Citation
 
-Please cite the dataset as follows:
+If you use this dataset or findings from the associated publication, please cite:
 
-> Serna, A. (2024). *Cross-Lingual Sentiment Classification in Sustainable Mobility: A Zero-Shot Evaluation Framework*.
+Serna, A. (2024). *Cross-Lingual Sentiment Classification in Sustainable Mobility: A Zero-Shot Evaluation Framework*.
 
-BibTeX:
-```bibtex
-@article{serna2024UGSC,
-  author = {Serna, Ainhoa},
-  title = {Cross-Lingual Sentiment Classification in Sustainable Mobility: A Zero-Shot Evaluation Framework},
-  year = {2024},
-  journal = {Language Resources and Evaluation}
-}
 
 ## License
 
