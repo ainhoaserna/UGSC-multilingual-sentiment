@@ -35,7 +35,7 @@ The dataset supports research on **zero-shot multilingual sentiment analysis** u
 
 If you use this dataset or findings from the associated publication, please cite:
 
-Serna & Gerrikagoitia (2025). *Cross-Lingual Sentiment Classification in Sustainable Mobility: A Zero-Shot Evaluation Framework*.
+Serna, Gerrikagoitia, Oña (2026). *Cross-Lingual Sentiment Classification in Sustainable Mobility: A Zero-Shot Evaluation Framework*.
 
 
 ## License
