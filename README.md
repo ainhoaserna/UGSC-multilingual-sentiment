@@ -12,7 +12,7 @@ Repository for the paper:
 
 The UGSC-ML dataset and model predictions are available on Zenodo:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15085522.svg)](https://doi.org/10.5281/zenodo.15085522)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20200844.svg)](https://doi.org/10.5281/zenodo.20200844)
 
 Download the following files and place them in this directory:
 - `ugsc_ml_translations.csv` — 375 English sentences with aligned translations (ES, FR, DE, IT)
