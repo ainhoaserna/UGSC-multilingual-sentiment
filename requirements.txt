@@ -1,0 +1,17 @@
+# UGSC-ML Sentiment Analysis Pipeline
+# Tested with Python 3.10 and 3.12
+
+# Core inference
+transformers==4.40.2
+torch==2.3.0          # CPU version also works: pip install torch --index-url https://download.pytorch.org/whl/cpu
+scipy==1.13.0
+
+# Data handling
+pandas==2.2.2
+numpy==1.26.4
+
+# Progress bars
+tqdm==4.66.4
+
+# Figure generation
+matplotlib==3.9.0
